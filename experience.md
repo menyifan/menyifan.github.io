@@ -7,7 +7,6 @@ description: Professional experiences and research projects for Yifan Men
 <section class="hero">
   <div class="hero-content">
     <h1>Experiences</h1>
-    <p>Production AEB algorithms, active safety frameworks, and research projects that translate control theory into real-world vehicle performance.</p>
   </div>
 </section>
 
@@ -16,11 +15,12 @@ description: Professional experiences and research projects for Yifan Men
 <div class="timeline">
   <div class="timeline-item">
     <h3>Chery Automobile Co., Ltd. <span class="pill">Jul 2023 - Present</span></h3>
-    <div class="meta">Staff Engineer | Minhang, Shanghai</div>
+    <div class="meta">Staff Engineer, Active Safety Lead | Minhang, Shanghai</div>
     <ul class="list">
-      <li>Led AEB algorithm development and production deployment across multiple vehicle platforms, covering over 200,000 units and meeting C-NCAP 2024 and Euro-NCAP 2023 5-star standards.</li>
-      <li>Designed lateral and longitudinal control algorithms for trajectory tracking, including PID, LQR, and MPC approaches.</li>
-      <li>Built a next-gen active safety framework with multi-object interactive prediction and probabilistic risk assessment.</li>
+      <li>Led automated emergency braking (AEB) algorithm development and deployment into mass production of Chery T22/T26/T28/E01 models. Successfully delivered over 200,000 units, meeting C-NCAP 2024 5-star standards.</li>
+      <li>Developed next-generation AEB algorithms, including discretized agent motion prediction, separating-axis-based collision risk detection, rule-based scene classification, and adaptive required deceleration for collision avoidance, which achieved significant improvements in test track evaluations and real-world driving experience.</li>
+      <li>Led the design and development of advanced active safety features, e.g. automated emergency steering (AES), lateral obstacle collision prevention (LOCP), general automated emergency braking (GAEB), etc. </li>
+      <li>Designed advanced modeling and control algorithms for safety features, such as probabilistic risk assessment model for collision detection, data-driven scene classification with XGBoost, integrated physics-data-based (IPDB) vehicle dynamics model for ego vehicle state estimation, and IPDB MPC controller for emergency steering control.</li>
     </ul>
   </div>
   <div class="timeline-item">
