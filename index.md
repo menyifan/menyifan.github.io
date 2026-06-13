@@ -11,8 +11,8 @@ description: Home page of Yifan Men
     <div class="current-role">
       <h3>Staff Engineer, Active Safety Lead</h3>
       <div class="role-info">
-        <strong>Algorithm R&D, Intelligent Driving</strong><br>
-        <strong>Chery Intelligentization Center</strong>
+        <strong>Algorithm Development, Intelligent Driving Center</strong><br>
+        <strong>Chery Global Technology Innovation Center (Shanghai)</strong>
       </div>
     </div>
     <div class="contact">
