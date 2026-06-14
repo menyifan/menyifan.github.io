@@ -5,24 +5,37 @@ description: Home page of Yifan Men
 ---
 
 <section class="hero">
-  <img class="portrait" src="portrait.jpg" alt="Portrait of Yifan Men">
+  <div class="portrait-wrap">
+    <img class="portrait" src="portrait.jpg" alt="Portrait of Yifan Men">
+    <span class="portrait-caption">Shanghai · China</span>
+  </div>
   <div class="hero-content">
-    <h1>Yifan Men, Ph.D.</h1>
+    <div class="eyebrow">Active Safety · Decision & Planning · Vehicle Control</div>
+    <h1>Engineering safer<br><span class="title-nowrap">intelligent mobility.</span></h1>
+    <p class="intro">I'm <strong>Yifan Men</strong>, an automotive algorithm engineer focused on active safety systems that move from research to reliable mass production.</p>
     <div class="current-role">
-      <h3>Staff Engineer, Active Safety Lead</h3>
+      <div class="role-label">Currently</div>
+      <h3>Staff Engineer · Active Safety Lead</h3>
       <div class="role-info">
-        <strong>Algorithm Development, Intelligent Driving Center</strong><br>
-        <strong>Chery Global Technology Innovation Center (Shanghai)</strong>
+        Algorithm Development, Intelligent Driving Center<br>
+        Chery Global Technology Innovation Center
       </div>
     </div>
     <div class="contact">
-      <div><strong>Phone:</strong> (517) 775-2964 / +86 19535885865 (China)</div>
-      <div><strong>Email:</strong> menyifan (at) mychery.com</div>
+      <a href="mailto:menyifan@mychery.com"><span>↗</span> menyifan@mychery.com</a>
+      <a href="tel:+8619535885865"><span>↗</span> +86 195 3588 5865</a>
+      <a href="tel:+15177752964"><span>↗</span> +1 517 775 2964</a>
     </div>
   </div>
 </section>
 
-## Education
+<div class="metrics" aria-label="Career highlights">
+  <div><strong>10+</strong><span>Years in engineering & research</span></div>
+  <div><strong>200K+</strong><span>Production vehicles delivered</span></div>
+  <div><strong>15</strong><span>Patents & publications</span></div>
+</div>
+
+## Education <span class="section-number">01</span>
 
 <div class="grid">
   <div class="card education-card">
@@ -45,7 +58,7 @@ description: Home page of Yifan Men
   </div>
 </div>
 
-## Awards and Honors
+## Awards and Honors <span class="section-number">02</span>
 
 <div class="card">
   <ul class="list">

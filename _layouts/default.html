@@ -13,18 +13,23 @@
   </head>
   <body>
     <aside class="sidebar">
-      <div class="sidebar-logo">
-        <img src="{{ '/chery_logo.png' | relative_url }}" alt="Chery Automobile" class="logo">
-      </div>
+      <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="Yifan Men home">
+        <span class="brand-mark">YM</span>
+        <span class="brand-copy"><strong>Yifan Men</strong><small>Active Safety · ADAS</small></span>
+      </a>
       <nav class="sidebar-nav">
-        <a {% if page.url == '/' or page.url == '/index.html' %}class="active"{% endif %} href="{{ '/' | relative_url }}">Home</a>
-        <a {% if page.url contains 'experience' %}class="active"{% endif %} href="{{ '/experience' | relative_url }}">Experiences</a>
-        <a {% if page.url contains 'publications' %}class="active"{% endif %} href="{{ '/publications' | relative_url }}">Publications</a>
+        <a {% if page.url == '/' or page.url == '/index.html' %}class="active"{% endif %} href="{{ '/' | relative_url }}"><span>01</span>Home</a>
+        <a {% if page.url contains 'experience' %}class="active"{% endif %} href="{{ '/experience' | relative_url }}"><span>02</span>Experiences</a>
+        <a {% if page.url contains 'publications' %}class="active"{% endif %} href="{{ '/publications' | relative_url }}"><span>03</span>Publications</a>
       </nav>
+      <div class="sidebar-footer">
+        <span class="status-dot"></span> Shanghai, China
+      </div>
     </aside>
 
     <main class="page">
       {{ content }}
+      <footer class="page-footer">© {{ 'now' | date: "%Y" }} Yifan Men · Engineering safer mobility</footer>
     </main>
   </body>
 </html>
